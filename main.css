@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #FF6B6B, #4ECDC4, #556270);
+    height: 100%;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60vw; /* Defina a largura como 60% da largura da viewport */
+    height: 100%;
+}
+
+.form-camp {
+    margin-bottom: 16px;
+}
+
+.form-camp label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-camp input {
+    width: 100%; /* Preenche 100% da largura do seu contêiner pai (form-camp) */
+    display: block;
+    padding: 10px;
+}
+
+label {
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
